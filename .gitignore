@@ -1,0 +1,3 @@
+# ignore standard outputs geneted by GEANT4
+*build*
+*root*

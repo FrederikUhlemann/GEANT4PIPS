@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "histoPips.C": "cpp",
+        "plotHisto.C": "cpp"
+    }
+}

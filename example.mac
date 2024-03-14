@@ -1,0 +1,20 @@
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 2
+
+#set the geometry of detetor or target
+
+#
+/run/initialize
+#place particle
+/gun/particle ion
+/gun/ion 86 219
+#/gun/energy 1 keV
+#/process/had/rdm/nucleusLimits 86 85 224 216
+# visualization
+/control/execute vis.mac
+#
+/analysis/setFileName pipsProject
+/analysis/h1/set 1 100 6. 8. MeV
+#
+/run/beamOn 10
