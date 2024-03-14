@@ -1,7 +1,7 @@
-# PIPS simulation project
+# GEANT4PIPS simulation project
 
-
-PipsProject is created to simulate a semiconductor detector.
+GEANT4PIPS was created to provide a simple entry-level example for GEANT4.
+The simulation is about a semiconductor detector.
 The detector is a Passivated Implanted Planar Silicon (short PIPS) detector.
 The detector measures especially the energy of alpha particles originating
 from radioactive decay.
@@ -11,6 +11,14 @@ https://gitlab.cern.ch/geant4/geant4/tree/edb408b5618b3b1cd3f40c5759aa5da4aa56bb
 
 
 ## How to start?
+
+
+## 1. Install GEANT4 and ROOT
+If you have not yet installed GEANT4 and ROOT you must do so first, instructions are provided in the wiki.
+
+
+
+## 2. Start of first example runs
 In the example, Radeon 219 is generated in the foil.
 Execute pipsProject in 'interactive mode' with visualization :
 ```
